@@ -16,7 +16,7 @@
     
     
       
-        <title>C# async - Siqi's Notebook</title>
+        <title>Csharp async - Siqi's Notebook</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#c-async" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              C# async
+              Csharp async
             
           </span>
         </div>
@@ -363,6 +363,18 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code-reading/" class="md-nav__link">
+        阅读代码的门道
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -427,8 +439,28 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    协程的局限
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c-async" class="md-nav__link">
+    C# async
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -441,7 +473,9 @@
               
                 
                 
-                <h1 id="c-async">C# async</h1>
+                <h2 id="_1">协程的局限</h2>
+<p>无法返回值，而且不能放进try-catch里面</p>
+<h1 id="c-async">C# async</h1>
 <p>C#有在语言层面的异步编程，用于解决以下2种堵塞:
 - I/O 密集: 比如网络请求，数据库,读写文件... 
 - CPU 密集: 比如很昂贵的运算</p>

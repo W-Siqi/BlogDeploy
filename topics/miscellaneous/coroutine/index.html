@@ -414,6 +414,18 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code-reading/" class="md-nav__link">
+        阅读代码的门道
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -622,13 +634,12 @@ unity为了实现协程在干的事情其实就是支持了一堆yield return �
 <p>unity文档有个例子(实际上可以给任意协程运行时打个断点自己看): </p>
 <p><img alt="image" src="../resources/1-coroutine-breakpoint.jpeg" /></p>
 <p>你会发现里面有个DelayedCallManager的东西，游戏运行过程中，游戏主循环的PlayerLoop方法会在每帧的不同时间点以不同的modeMask调用DelayedCallManager.Update方法，这会遍历已经注册了的Coroutine对象,如果某个Coroutine对象的monoWait的执行条件满足，就会调用那个迭代器的MoveNext</p>
-<h2 id="_4">协程的局限</h2>
-<p>无法返回值，而且不能放进try-catch里面</p>
-<h2 id="_5">参考</h2>
+<h2 id="_4">参考</h2>
 <p>https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity3.html</p>
 <p>https://sunweizhe.cn/2020/05/08/%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90Unity%E5%8D%8F%E7%A8%8B%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/ </p>
 <p>https://zhuanlan.zhihu.com/p/147608872</p>
 <p>https://www.zhihu.com/question/50185085/answer/183463734</p>
+<p>写于21.8.1</p>
                 
               
               
@@ -664,13 +675,13 @@ unity为了实现协程在干的事情其实就是支持了一堆yield return �
       
       
         
-        <a href="../../../shortcut/" class="md-footer__link md-footer__link--next" aria-label="Next: 站位" rel="next">
+        <a href="../code-reading/" class="md-footer__link md-footer__link--next" aria-label="Next: 阅读代码的门道" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              站位
+              阅读代码的门道
             </div>
           </div>
           <div class="md-footer__button md-icon">

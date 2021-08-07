@@ -2,67 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/lua-master/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/miscellaneous/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/shortcut/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/lua/NET-PInvoke/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/lua/lua-CAPI-and-stack/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/lua/lua-basic/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/lua/ulua-analysis/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/topics/miscellaneous/code-reading/</loc>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/miscellaneous/coroutine/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/miscellaneous/csharp-async/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/miscellaneous/gc/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/miscellaneous/metaprogramming/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/topics/miscellaneous/transform/</loc>
-         <lastmod>2021-08-01</lastmod>
+         <lastmod>2021-08-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
